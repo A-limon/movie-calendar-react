@@ -1,0 +1,52 @@
+.movie {
+  width: 8.6rem;
+  margin: 0 auto;
+  align-items: center;
+}
+.info {
+  flex: 4;
+}
+.pic {
+  flex: 1;
+  text-align: right;
+}
+.pic img {
+  height: 1.6rem;
+}
+.movie-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+[data-dpr="2"] .movie-title {
+  font-size: 36px;
+}
+[data-dpr="3"] .movie-title {
+  font-size: 54px;
+}
+.rate {
+  align-items: center;
+}
+.rate .rating {
+  font-size: 32px;
+  color: #555450;
+}
+[data-dpr="2"] .rate .rating {
+  font-size: 64px;
+}
+[data-dpr="3"] .rate .rating {
+  font-size: 96px;
+}
+.rate .rating-poing {
+  margin-left: 0.2rem;
+}
+.rate .rating-poing .comments {
+  margin-top: 0.05rem;
+  font-size: 12px;
+  color: #555450;
+}
+[data-dpr="2"] .rate .rating-poing .comments {
+  font-size: 24px;
+}
+[data-dpr="3"] .rate .rating-poing .comments {
+  font-size: 36px;
+}

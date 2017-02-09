@@ -1,0 +1,22 @@
+.today {
+  width: 7rem;
+  height: 1rem;
+  margin: 0 auto;
+  border-top: 2px solid #b2b2b2;
+  border-bottom: 2px solid #b2b2b2;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 16px;
+}
+[data-dpr="2"] .today {
+  font-size: 32px;
+}
+[data-dpr="3"] .today {
+  font-size: 48px;
+}
+.today.weekend {
+  background: #529856;
+  color: #fff;
+  border-color: #529856;
+}

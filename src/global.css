@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'DietDidotExtra';
+  src: url('../public/font/DietDidotExtra.eot?#font-spider') format('embedded-opentype'),
+       url('../public/font/DietDidotExtra.woff2') format('woff2'),
+       url('../public/font/DietDidotExtra.woff') format('woff'),
+       url('../public/font/DietDidotExtra.ttf') format('truetype'),
+       url('../public/font/DietDidotExtra.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.l-flex {
+  display: flex;
+}
+.chinese {
+  font-family: PingFang SC, "Helvetica Neue", Helvetica, 'Hiragino Sans GB', 'Microsoft YaHei', 'WenQuanYi Micro Hei', Arial,sans-serif;
+}
